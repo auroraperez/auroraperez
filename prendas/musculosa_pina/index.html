@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="Aurora Perez" />
 <meta property="og:image" content="http://auroraperez.com.ar//assets/img/products/remera_pina_frente.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2016-06-14T00:56:52-03:00" />
+<meta property="article:published_time" content="2016-06-14T11:49:27-03:00" />
 <meta property="fb:app_id" content="963834287070310" />
 <script type="application/ld+json">
   {
@@ -22,7 +22,7 @@
     "@type": "BlogPosting",
     "headline": "Musculosa pina",
     "image": "http://auroraperez.com.ar//assets/img/products/remera_pina_frente.jpg",
-    "datePublished": "2016-06-14T00:56:52-03:00",
+    "datePublished": "2016-06-14T11:49:27-03:00",
     "description": "Musculosa con 3 prendedores de Cerámica Pina.",
     "url": "http://auroraperez.com.ar//prendas/musculosa_pina/"
   }
@@ -74,7 +74,7 @@
 
     <div class="trigger">
       
-        <a class="glyphicon glyphicon-chevron-left page-navigation" title="Musculosa dúo" href="/prendas/musculosa_duo/"></a>
+        <a class="glyphicon glyphicon-chevron-left page-navigation" title="Musculosa dúo" data-toggle="tooltip" href="/prendas/musculosa_duo/"></a>
 
       
 
@@ -93,7 +93,7 @@
       
 
       
-        <a class="glyphicon glyphicon-chevron-right page-navigation" title="Pantalón dulce de leche" href="/prendas/pantalon_dulce_de_leche/"></a>
+        <a class="glyphicon glyphicon-chevron-right page-navigation" title="Pantalón dulce de leche" data-toggle="tooltip" href="/prendas/pantalon_dulce_de_leche/"></a>
       
     </div>
   </nav>
@@ -164,27 +164,27 @@
  
     <!-- Facebook -->
     <a href="http://www.facebook.com/sharer.php?u=http://auroraperez.com.ar//prendas/musculosa_pina/" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+        <img class="social-button" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" title="Compartir en Facebook" data-toggle="tooltip" />
     </a>
 
     <!-- Pinterest -->
     <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
-        <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
+        <img class="social-button" src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" title="Compartir en Pinterest" data-toggle="tooltip" />
     </a>
     
     <!-- Google+ -->
     <a href="https://plus.google.com/share?url=http://auroraperez.com.ar//prendas/musculosa_pina/" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+        <img class="social-button" src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" title="Compartir en Google+" data-toggle="tooltip" />
     </a>
          
     <!-- Twitter -->
     <a href="https://twitter.com/share?url=http://auroraperez.com.ar//prendas/musculosa_pina/&amp;text=Aurora Perez: Musculosa pina&amp;hashtags=auroraperez" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+        <img class="social-button" src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" title="Compartir en Twitter" data-toggle="tooltip" />
     </a>
 
     <!-- Email -->
     <a href="mailto:?Subject=Aurora Perez: Musculosa pina&amp;Body=Me gusta http://auroraperez.com.ar//prendas/musculosa_pina/">
-        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+        <img class="social-button" src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" title="Compartir por e-mail" data-toggle="tooltip"/>
     </a>
 
 </div>
@@ -240,18 +240,24 @@
   <nav>
     <div class="social">
       <a href="http://www.facebook.com/AuroraPerezArgentina">
-        <img class="social-button" alt="facebook" src="/assets/img/facebook.png"/>
+        <img class="social-button" alt="facebook" title="Visita nuestro Facebook" data-toggle="tooltip" src="/assets/img/facebook.png"/>
       </a>
       <a href="http://pinterest.com/auroraperezarg">
-        <img alt="pinterest" src="/assets/img/pinterest.png"/>
+        <img class="social-button" alt="pinterest" title="Visita nuestro Pinterest" data-toggle="tooltip" src="/assets/img/pinterest.png"/>
       </a>
       <a href="http://www.instagram.com/auroraperezindumentaria">
-        <img alt="instagram" src="/assets/img/instagram.png">
+        <img class="social-button" alt="instagram" title="Visita nuestro Instagram" data-toggle="tooltip" src="/assets/img/instagram.png">
       </a>
     </div>
     <p>© 2016 por Aurora Perez</p>
   </nav>
 </footer>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 
 <!--  		<script type="text/javascript">
 			function facebook_send_message() {

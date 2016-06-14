@@ -92,17 +92,23 @@
   <nav>
     <div class="social">
       <a href="http://www.facebook.com/AuroraPerezArgentina">
-        <img class="social-button" alt="facebook" src="/assets/img/facebook.png"/>
+        <img class="social-button" alt="facebook" title="Visita nuestro Facebook" data-toggle="tooltip" src="/assets/img/facebook.png"/>
       </a>
       <a href="http://pinterest.com/auroraperezarg">
-        <img alt="pinterest" src="/assets/img/pinterest.png"/>
+        <img class="social-button" alt="pinterest" title="Visita nuestro Pinterest" data-toggle="tooltip" src="/assets/img/pinterest.png"/>
       </a>
       <a href="http://www.instagram.com/auroraperezindumentaria">
-        <img alt="instagram" src="/assets/img/instagram.png">
+        <img class="social-button" alt="instagram" title="Visita nuestro Instagram" data-toggle="tooltip" src="/assets/img/instagram.png">
       </a>
     </div>
     <p>© 2016 por Aurora Perez</p>
   </nav>
 </footer>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 	</body>
 </html>
