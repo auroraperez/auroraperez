@@ -56,9 +56,9 @@ header .cover {
   margin: auto;
   max-width: 450px; }
 header .fa-long-arrow-left {
-  margin-right: 30px; }
+  margin-right: 10px; }
 header .fa-long-arrow-right {
-  margin-left: 30px; }
+  margin-left: 10px; }
 header nav {
   padding: 60px 0 80px; }
   header nav .page-link {
