@@ -34,7 +34,9 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: green; }
+  color: green;
+  -webkit-transition: .5s;
+  transition: .5s; }
 
 /* For modern browsers */
 .clearfix:before,
@@ -95,6 +97,18 @@ footer {
   margin-top: 5px;
   width: 100%;
   height: auto; }
+.home .ferias_svg {
+  fill: #233539; }
+.home .ferias_svg:hover {
+  fill: green;
+  -webkit-transition: .5s;
+  transition: .5s; }
+.home .prendas_svg {
+  fill: #ffd7d7; }
+.home .prendas_svg:hover {
+  fill: yellow;
+  -webkit-transition: .5s;
+  transition: .5s; }
 .home .thumbnail {
   border-radius: 5px;
   overflow: hidden;
