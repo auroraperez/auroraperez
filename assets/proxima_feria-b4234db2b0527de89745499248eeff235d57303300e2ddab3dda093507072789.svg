@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="800"
@@ -25,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="419.0841"
-     inkscape:cy="100.53536"
+     inkscape:cx="400.872"
+     inkscape:cy="113.72594"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1585"
      inkscape:window-height="874"
      inkscape:window-x="143"
-     inkscape:window-y="65"
+     inkscape:window-y="97"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -43,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,30 +56,26 @@
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="767.58673"
-       y="931.08295"
+       x="684.00806"
+       y="938.1134"
        id="text3132"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3134"
-         x="767.58673"
-         y="931.08295"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;font-family:Lobster Two;-inkscape-font-specification:Lobster Two Bold">¡Pasa a vernos</tspan><tspan
+         x="684.00806"
+         y="938.1134"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;font-family:Lobster Two;-inkscape-font-specification:Lobster Two Bold">¡Pasá a vernos</tspan><tspan
          sodipodi:role="line"
-         x="767.58673"
-         y="1001.0829"
+         x="684.00806"
+         y="1008.1134"
          id="tspan3136"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;font-family:Lobster Two;-inkscape-font-specification:Lobster Two Bold">por la próxima feria!</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:103.66217041px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"
-       x="38.830803"
-       y="989.2699"
-       id="text6124"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan6168"
-         x="38.830803"
-         y="989.2699"> </tspan></text>
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;font-family:Lobster Two;-inkscape-font-specification:Lobster Two Bold">la próxima feria!</tspan></text>
+    <image
+       y="860.27362"
+       x="110.36317"
+       id="image3071"
+       xlink:href="file:///home/tinchodias/dev/auroraperez/girasol/_assets/img/proxima_feria.png"
+       width="192.7955"
+       height="158.09482" />
   </g>
 </svg>
